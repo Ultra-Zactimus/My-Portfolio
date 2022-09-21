@@ -1,0 +1,84 @@
+@use '../abstracts/variables' as var;
+@use '../abstracts/mixins' as mix;
+
+.header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+
+  @include mix.md-screens {
+    height: 86vh;
+  }
+
+  @include mix.sm-screens {
+    height: 100vh;
+  }
+
+  &__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+  }
+
+// Styles for the Socials
+  &__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+
+    @include mix.md-screens {
+      bottom: 14rem;
+    }
+
+    @include mix.sm-screens {
+      display: none;
+    }
+  
+    &::after {
+      content: '';
+      width: 1px;
+      height: 2rem;
+      background-color: var.$primary;
+    }
+  }
+
+// Styles for the Call To Action
+  &__cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+  }
+  
+// Styles for the Image
+  &__image {
+    width: 22rem;
+    height: 100%;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 2rem;
+    padding: 0.2rem 0.2rem;
+  }
+}
+
+// Styles for the Scroll
+.scroll__down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+
+  @include mix.md-screens {
+    bottom: 16rem;
+  }
+
+  @include mix.sm-screens {
+    display: none;
+  }
+}
