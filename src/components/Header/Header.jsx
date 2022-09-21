@@ -1,8 +1,23 @@
-
+import Image from 'next/image';
+import forest1 from '../../../public/forest1.jpg';
+import CTA from './CTA';
+import HeaderSocials from './HeaderSocials';
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <header id="home" className="header">
+      <div className="container header__container">
+        <h5>Hello I&lsquo;m</h5>
+        <h1>Zachary Green</h1>
+        <h5 className="text-light">Full Stack Developer</h5>
+        <CTA />
+        <HeaderSocials />
+        <div className="header__image">
+          <Image src={forest1} alt="code terminal" />
+        </div>        
+        <a className="scroll__down" href="#contact">Scroll Down</a>
+      </div>
+    </header>
   )
 }
 
