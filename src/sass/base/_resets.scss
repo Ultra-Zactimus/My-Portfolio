@@ -26,3 +26,18 @@ body {
   color: var.$wht;
   line-height: 1.7;
 }
+
+.container {
+  width: var.$large;
+  margin-inline: auto;
+
+  @include mix.md-screens {
+    width: var.$medium;
+  }
+}
+
+.img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
