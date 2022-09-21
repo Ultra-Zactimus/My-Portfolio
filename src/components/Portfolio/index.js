@@ -1,6 +1,8 @@
-import { p1, p2, p3 } from '../../assets/';
+import p1 from '../../../public/port1.png';
+import p2 from '../../../public/port2.png';
+import p3 from '../../../public/port3.png';
 
-export const myWebpages = [
+const myWebpages = [
   {
     id: 1,
     image: p1,
@@ -26,3 +28,5 @@ export const myWebpages = [
     demo: 'https//google.com'
   }
 ];
+
+export default myWebpages;
