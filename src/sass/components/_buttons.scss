@@ -1,0 +1,23 @@
+@use '../abstracts/variables' as var;
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var.$primary;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var.$primary;
+  transition: var.$transition;
+
+  &:hover {
+    background-color: var.$wht;
+    color: var.$bg-dark;
+    border-color: transparent;
+  }
+
+  &-primary {
+    background-color: var.$primary;
+    color: var.$bg-dark;
+  }
+}
