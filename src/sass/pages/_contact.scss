@@ -1,0 +1,51 @@
+@use '../abstracts/variables' as var;
+@use '../abstracts/mixins' as mix;
+
+.contact {
+  &__container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+
+    @include mix.md-screens {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    @include mix.sm-screens {
+      width: var.$small;
+    }
+  }
+
+  &__options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  &__option {
+    background-color: var.$bg-medium;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var.$transition;
+
+    &:hover {
+      background: transparent;
+      border-color: var.$secondary;
+    }
+
+    &--icon {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    & a {
+      margin-top: 0.7rem;
+      display: inline-block;
+      font-size: 0.8rem;
+    }
+  }
+}
