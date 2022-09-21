@@ -8,8 +8,6 @@
 
 ## Technologies Used
 
-#
-
 - `React`
 - `JavaScript (JSX)`
 - `HTML (JSX)`
@@ -24,23 +22,17 @@
 
 ## Description
 
-#
-
 This project is a portfolio about me as a developer, my experience in the industry and a hnadful of the projects I have worked on. This project was built on the Next.js framework with Sass.
 
 #
 
 ## Known Bugs
 
-#
-
 There are no known bugs at this time.
 
 #
 
 ## Getting Started
-
-#
 
 First install all packages, then run the development server:
 
@@ -61,8 +53,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 #
 
 ## Learn More
-
-#
 
 To learn more about Next.js, take a look at the following resources:
 
