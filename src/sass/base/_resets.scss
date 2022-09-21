@@ -41,3 +41,30 @@ body {
   width: 100%;
   object-fit: cover;
 }
+
+section {
+  margin-top: 8rem;
+
+  @include mix.md-screens {
+    margin-top: 6rem;
+  }
+
+  & > h2 {
+    margin-bottom: 3rem;
+    color: var.$primary;
+
+    @include mix.sm-screens {
+      margin-bottom: 2rem;
+    }
+  }
+
+  & > h5 {
+    color: var.$lgt;
+  }
+
+  & > h2,
+  & > h5 {
+    text-align: center;
+    
+  }
+}
