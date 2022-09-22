@@ -2,6 +2,10 @@
 @use '../abstracts/mixins' as mix;
 
 .contact {
+  @include mix.xs-screens {
+    margin-left: 2.1rem;
+  }
+
   &__container {
     width: 58%;
     display: grid;
