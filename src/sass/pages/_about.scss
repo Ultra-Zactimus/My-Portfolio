@@ -2,10 +2,6 @@
 @use '../abstracts/mixins' as mix;
 
 .about {
-  @include mix.xs-screens {
-    margin-left: 2rem;
-  }
-
   &__container {
     display: grid;
     grid-template-columns: 35% 50%;
