@@ -16,7 +16,8 @@
     }
 
     @include mix.xs-screens {
-      margin: 0;
+      display: flex;
+      flex-direction: column;
     }
 
     & > div {
@@ -59,6 +60,10 @@
     @include mix.md-screens {
       padding: 1rem;
     }
+
+    @include mix.xs-screens {
+      padding: 0;
+    }
   }
 
   &__details {
@@ -66,7 +71,7 @@
     gap: 1rem;
 
     @include mix.xs-screens {
-      margin-right: 1rem;
+      margin-right: 0.5rem;
     }
 
     &--icon {
