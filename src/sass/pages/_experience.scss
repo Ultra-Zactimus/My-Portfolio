@@ -15,6 +15,10 @@
       gap: 1rem;
     }
 
+    @include mix.xs-screens {
+      margin: 0;
+    }
+
     & > div {
       background-color: var.$bg-medium;
       padding: 2.4rem 5rem;
@@ -61,9 +65,17 @@
     display: flex;
     gap: 1rem;
 
+    @include mix.xs-screens {
+      margin-right: 1rem;
+    }
+
     &--icon {
       margin-top: 6px;
       color: var.$primary;
+
+      @include mix.xs-screens {
+        flex-shrink: 0;
+      }
     }
   }
 }
