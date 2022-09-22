@@ -1,3 +1,9 @@
+@mixin xs-screens {
+  @media (max-width: 20rem) {
+    @content;
+  }
+}
+
 @mixin sm-screens {
   @media (max-width: 37.5em) {
     @content;
