@@ -2,6 +2,10 @@
 @use '../abstracts/mixins' as mix;
 
 .portfolio {
+  @include mix.xs-screens {
+    margin-left: 2.1rem;
+  }
+
   &__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
