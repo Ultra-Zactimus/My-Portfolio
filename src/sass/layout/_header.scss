@@ -63,6 +63,10 @@
     margin-top: 2rem;
     padding: 0.2rem 0.2rem;
   }
+
+  @include mix.xs-screens {
+    margin-left: 1.5rem;
+  }
 }
 
 // Styles for the Scroll
