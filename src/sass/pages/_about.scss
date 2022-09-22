@@ -2,6 +2,10 @@
 @use '../abstracts/mixins' as mix;
 
 .about {
+  @include mix.xs-screens {
+    margin-left: 2rem;
+  }
+
   &__container {
     display: grid;
     grid-template-columns: 35% 50%;
@@ -62,6 +66,12 @@
       grid-template-columns: 1fr 1fr;
       gap: 1rem;
     }
+
+    @include mix.xs-screens {
+      margin-top: 10%;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
   }
 
   &__card {
@@ -108,6 +118,10 @@
   
       @include mix.sm-screens {
         margin: 1.5rem 0;
+      }
+
+      @include mix.xs-screens {
+        margin-top: 3.5rem;
       }
     }
   }
