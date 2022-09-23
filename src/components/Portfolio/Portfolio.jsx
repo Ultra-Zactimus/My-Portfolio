@@ -4,7 +4,7 @@ import myWebpages from "./index";
 const Portfolio = () => {
   return (
     <section id="portfolio" className="portfolio">
-      <h5>My Recent Work</h5>
+      <h1 className="small">My Recent Work</h1>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
         {myWebpages.map(({ id, image, title, desc, github, demo }) => {
