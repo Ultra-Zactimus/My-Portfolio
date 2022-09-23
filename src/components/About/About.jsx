@@ -24,19 +24,19 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
+              <h1 className="small">Experience</h1>
               <small>6 Months of school, 1 month Internship</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
+              <h1 className="small">Projects</h1>
               <small>Dozens of apps in several languages & frameworks</small>
             </article>
 
             <article className="about__card">
               <GiStairsGoal className="about__icon" />
-              <h5>Goals</h5>
+              <h1 className="small">Goals</h1>
               <small>Growing as a developer and creating a gaming app</small>
             </article>
           </div>
