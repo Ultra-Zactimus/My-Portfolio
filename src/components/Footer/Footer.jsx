@@ -26,19 +26,7 @@ const Footer = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-
-      <div className="footer__socials">
-        <a href="https://google.com">
-          <FaFacebook />
-        </a>
-        <a href="https://google.com">
-          <FiInstagram />
-        </a>
-        <a href="https://google.com">
-          <IoLogoTwitter />
-        </a>
-      </div>
-
+      
       <div className="footer__copyright">
         <small>&copy; Zachary Green 2022. All Rights Reserved</small>
       </div>
