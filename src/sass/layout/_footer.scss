@@ -23,33 +23,6 @@
     color: var.$wht;
   }
 
-  &__socials {
-    display: flex;
-    justify-content: center;
-    flex-wrap: 1rem;
-    gap: 0.5rem;
-    margin-bottom: 4rem;
-
-    @include mix.sm-screens {
-      margin-bottom: 2.6rem;
-    }
-  
-    & a {
-      background-color: var.$bg-dark;
-      color: var.$wht;
-      padding: 0.8rem;
-      border-radius: 0.7rem;
-      display: flex;
-      border: 1px solid transparent;
-  
-      &:hover {
-        background: transparent;
-        color: var.$wht;
-        border-color: var.$primary;
-      }
-    }
-  }
-
   &__copyright {
     margin-bottom: 4rem;
     color: var.$primary;
