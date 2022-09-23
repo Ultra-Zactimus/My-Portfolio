@@ -44,7 +44,7 @@ const About = () => {
             I am a Full Stack Developer from Northern California. I am passionate about creating beautiful UI/UX designs that myself and clients can be proud of. During the pandemic I attended Epicodus Coding School where I learned about coding and the dynamic of working in teams to create responsive designs. Adding me to your team means adding someone who loves what they do and the people they work with.
           </p>
 
-          <a href="#contact" className="btn btn-primary">
+          <a href="#contact" className="btn btn-primary" aria-label="Contact Me">
             Let&lsquo;s Talk
           </a>
         </div>
