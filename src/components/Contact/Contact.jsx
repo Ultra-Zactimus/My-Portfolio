@@ -41,6 +41,7 @@ const Contact = () => {
             <h4>Email</h4>
             <h5>ultrazacky@gmail.com</h5>
             <a
+              aria-label="Email Address"
               href="mailto:ultrazacky@gmail.com"
               target="_blank"
               rel="noreferrer"
@@ -52,7 +53,11 @@ const Contact = () => {
             <RiMessengerLine className="contact__option--icon" />
             <h4>Messenger</h4>
             <h5>Zach Green</h5>
-            <a href="https://m.me/zach.green" target="_blank" rel="noreferrer">
+            <a
+              aria-label="Facebook Messenger"
+              href="google.com" 
+              target="_blank" 
+              rel="noreferrer">
               Send a Message
             </a>
           </article>
@@ -60,7 +65,11 @@ const Contact = () => {
             <AiOutlinePhone className="contact__option--icon" />
             <h4>Phone</h4>
             <h5>707.832.3472</h5>
-            <a href="tel:7078323472" target="_blank" rel="noreferrer">
+            <a
+              aria-label="Telephone"
+              href="tel:7078323472" 
+              target="_blank" 
+              rel="noreferrer">
               Call Me
             </a>
           </article>
