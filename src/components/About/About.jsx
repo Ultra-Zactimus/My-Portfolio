@@ -17,6 +17,8 @@ const About = () => {
               src={forest2} 
               alt="forest"
               className="img"
+              width={500}
+              height={610}
             />
           </div>
         </div>
