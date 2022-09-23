@@ -25,6 +25,7 @@ const Portfolio = () => {
                   className="btn"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Github"
                 >
                   GitHub
                 </a>
