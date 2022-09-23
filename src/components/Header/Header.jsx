@@ -17,6 +17,8 @@ const Header = () => {
             src={forest1} 
             alt="code terminal" 
             className="img"
+            width={1100}
+            height={1000}
           />
         </div>        
         <a className="scroll__down" href="#contact" aria-label="Scroll Down">Scroll Down</a>
