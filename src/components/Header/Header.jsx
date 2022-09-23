@@ -19,7 +19,7 @@ const Header = () => {
             className="img"
           />
         </div>        
-        <a className="scroll__down" href="#contact">Scroll Down</a>
+        <a className="scroll__down" href="#contact" aria-label="Scroll Down">Scroll Down</a>
       </div>
     </header>
   )
