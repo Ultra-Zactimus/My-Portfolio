@@ -20,6 +20,14 @@
     position: relative;
   }
 
+  &__small {
+    font-size: 0.83em
+  }
+
+  &__large {
+    font-size: 2em;
+  }
+
 // Styles for the Socials
   &__socials {
     display: flex;
