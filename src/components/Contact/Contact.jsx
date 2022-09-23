@@ -38,8 +38,8 @@ const Contact = () => {
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className="contact__option--icon" />
-            <h4>Email</h4>
-            <h5>ultrazacky@gmail.com</h5>
+            <h3 className="medium">Email</h3>
+            <h4 className="small">ultrazacky@gmail.com</h4>
             <a
               aria-label="Email Address"
               href="mailto:ultrazacky@gmail.com"
@@ -51,8 +51,8 @@ const Contact = () => {
           </article>
           <article className="contact__option">
             <RiMessengerLine className="contact__option--icon" />
-            <h4>Messenger</h4>
-            <h5>Zach Green</h5>
+            <h3 className="medium">Messenger</h3>
+            <h4 className="small">Zach Green</h4>
             <a
               aria-label="Facebook Messenger"
               href="google.com" 
@@ -63,8 +63,8 @@ const Contact = () => {
           </article>
           <article className="contact__option">
             <AiOutlinePhone className="contact__option--icon" />
-            <h4>Phone</h4>
-            <h5>707.832.3472</h5>
+            <h3 className="medium">Phone</h3>
+            <h4 className="small">707.832.3472</h4>
             <a
               aria-label="Telephone"
               href="tel:7078323472" 
