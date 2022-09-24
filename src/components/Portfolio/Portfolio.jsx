@@ -29,6 +29,15 @@ const Portfolio = () => {
                 >
                   GitHub
                 </a>
+                <a
+                  href={demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Live Demo"
+                >
+                  Live Demo
+                </a>
               </div>
             </article>
           );
