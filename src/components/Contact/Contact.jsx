@@ -49,18 +49,7 @@ const Contact = () => {
               Send a Message
             </a>
           </article>
-          <article className="contact__option">
-            <RiMessengerLine className="contact__option--icon" />
-            <h3 className="medium">Messenger</h3>
-            <h4 className="small">Zach Green</h4>
-            <a
-              aria-label="Facebook Messenger"
-              href="google.com" 
-              target="_blank" 
-              rel="noreferrer">
-              Send a Message
-            </a>
-          </article>
+
           <article className="contact__option">
             <AiOutlinePhone className="contact__option--icon" />
             <h3 className="medium">Phone</h3>
