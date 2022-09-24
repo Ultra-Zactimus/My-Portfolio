@@ -47,7 +47,7 @@ const About = () => {
           </p>
 
           <a href="#contact" className="btn btn-primary" aria-label="Contact Me">
-            Let&lsquo;s Talk
+            Let&apos;s Talk
           </a>
         </div>
       </div>
