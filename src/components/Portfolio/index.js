@@ -9,7 +9,7 @@ const myWebpages = [
     title: 'Sorting Algorithm Visualizer',
     desc: 'This was a team project that used JQuery to style the DOM for each algorithm. The idea was to create a way for students to visualize what was happing inside of these algorithms. This project took a deep understanding of how each algorightm worked, to perfectly pair the styles to each algorithm to effectively show what was happening inside.',
     github: 'https://github.com/ryan-spencer1220/sorting-algorithm-visualizer',
-    demo: 'visualizer-algorithm-axfo.vercel.app'
+    demo: 'https://visualizer-algorithm-axfo.vercel.app'
   },
   {
     id: 2,
