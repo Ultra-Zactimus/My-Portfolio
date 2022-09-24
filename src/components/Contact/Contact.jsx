@@ -49,7 +49,6 @@ const Contact = () => {
               Send a Message
             </a>
           </article>
-
           <article className="contact__option">
             <AiOutlinePhone className="contact__option--icon" />
             <h3 className="medium">Phone</h3>
