@@ -25,7 +25,7 @@ const myWebpages = [
     title: 'Internet Movie Database',
     desc: 'This project was built with C# and MySQL on the .NET Core Framework using the MVC model. My classmates and I were trying to create a webpage where the community could add their own films to a database. Users would then be able to query the site by Director, Actor, Composer or Movie Name to find out info about what other projects people worked on.',
     github: 'https://github.com/Ultra-Zactimus/Filmography',
-    demo: 'https//google.com'
+    demo: 'https://github.com/Ultra-Zactimus/Filmography'
   }
 ];
 
