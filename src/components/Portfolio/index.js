@@ -17,7 +17,7 @@ const myWebpages = [
     title: 'Card Memory Game',
     desc: 'This project was built with React using CSS BEM method. Cards are randomly generated on each new game and the user must match card pairs to win. The total turns it takes are calculated for the user so they can try to go for their best. This project was something fun to create and served as a way for me to practice styling with BEM',
     github: 'https://github.com/Ultra-Zactimus/react-memory-game',
-    demo: 'https//google.com'
+    demo: 'https://react-memory-game-5h1b.vercel.app/'
   },
   {
     id: 3,
