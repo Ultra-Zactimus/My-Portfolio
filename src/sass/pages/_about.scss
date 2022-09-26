@@ -26,7 +26,8 @@
 
     @include mix.sm-screens {
       grid-template-columns: 1fr;
-      gap: 1rem;
+      gap: 1.5rem;
+      margin-top: 0;
     }
 
     @include mix.xs-screens {
@@ -90,7 +91,7 @@
       color: var.$lgt;
   
       @include mix.sm-screens {
-        margin: 1.5rem 0;
+        margin-top: 3rem;
       }
 
       @include mix.xs-screens {
