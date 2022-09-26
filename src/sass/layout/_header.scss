@@ -20,12 +20,12 @@
     position: relative;
 
     @include mix.md-screens {
-      margin-top: 12rem;
-      height: 42%;
+      margin-top: 1rem;
+      height: 78%;
     }
 
     @include mix.sm-screens {
-      margin-top: 3.1rem;
+      margin-top: 1rem;
     }
   }
 
