@@ -48,4 +48,10 @@
       font-size: 0.8rem;
     }
   }
+
+  &__form button {
+    @include mix.sm-screens {
+      margin-inline: auto;
+    }
+  }
 }
