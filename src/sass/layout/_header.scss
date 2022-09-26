@@ -27,6 +27,10 @@
     @include mix.sm-screens {
       margin-top: 1rem;
     }
+
+    @include mix.xs-screens {
+      margin-top: 6rem;
+    }
   }
 
 // Styles for the Socials
