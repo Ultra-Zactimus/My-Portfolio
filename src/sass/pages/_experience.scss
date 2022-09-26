@@ -5,10 +5,11 @@
   &__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 1rem;
 
     @include mix.md-screens {
       grid-template-columns:  1fr;
+      gap: 1.5rem;
     }
 
     @include mix.sm-screens {
@@ -26,15 +27,12 @@
       border-radius: 2rem;
       border: 1px solid transparent;
       transition: var.$transition;
-
-      @include mix.lg-screens {
-        width: 100%;
-      }
+      margin-inline: auto;
+      width: 90%;
 
       @include mix.md-screens {
-        width: 80%;
+        width: 75%;
         padding: 2rem;
-        margin-inline: auto;
       }
 
       @include mix.sm-screens {
@@ -59,7 +57,8 @@
   &__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    row-gap: 1.5rem;
+    justify-content: center;
 
     @include mix.md-screens {
       padding: 1rem;
@@ -72,11 +71,11 @@
 
   &__details {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     margin-right: 0.8rem;
 
-    @include mix.xs-screens {
-      margin-right: 0.5rem;
+    @include mix.sm-screens {
+      margin-right: 0.3rem;
     }
 
     &--icon {
