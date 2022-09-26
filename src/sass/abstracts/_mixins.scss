@@ -1,5 +1,11 @@
-@mixin xs-screens {
-  @media (max-width: 20rem) {
+@mixin lg-screens {
+  @media (max-width: 80.35em) {
+    @content;
+  }
+}
+
+@mixin md-screens {
+  @media (max-width: 64em) {
     @content;
   }
 }
@@ -10,8 +16,9 @@
   }
 }
 
-@mixin md-screens {
-  @media (max-width: 64em) {
+@mixin xs-screens {
+  @media (max-width: 20rem) {
     @content;
   }
 }
+
