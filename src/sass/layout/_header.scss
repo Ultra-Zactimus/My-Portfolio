@@ -2,22 +2,31 @@
 @use '../abstracts/mixins' as mix;
 
 .header {
-  height: 100vh;
-  padding-top: 7rem;
+  height: 90vh;
+  padding-top: 16rem;
   overflow: hidden;
 
   @include mix.md-screens {
-    height: 86vh;
+    height: 100vh;
   }
 
   @include mix.sm-screens {
-    height: 100vh;
+    height: 88vh;
   }
 
   &__container {
     text-align: center;
     height: 100%;
     position: relative;
+
+    @include mix.md-screens {
+      margin-top: 12rem;
+      height: 42%;
+    }
+
+    @include mix.sm-screens {
+      margin-top: 3.1rem;
+    }
   }
 
 // Styles for the Socials
@@ -28,10 +37,10 @@
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 5rem;
+    bottom: 18rem;
 
     @include mix.md-screens {
-      bottom: 14rem;
+      bottom: 12rem;
     }
 
     @include mix.sm-screens {
@@ -53,16 +62,6 @@
     gap: 1.2rem;
     justify-content: center;
   }
-  
-// Styles for the Image
-  &__image {
-    width: 30rem;
-    height: 100%;
-    position: absolute;
-    left: calc(50% - 15rem);
-    margin-top: 2rem;
-    padding: 0.2rem 0.2rem;
-  }
 
   @include mix.xs-screens {
     padding: 0;
@@ -73,13 +72,13 @@
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  bottom: 7rem;
+  bottom: 20rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
 
   @include mix.md-screens {
-    bottom: 16rem;
+    bottom: 14rem;
   }
 
   @include mix.sm-screens {
