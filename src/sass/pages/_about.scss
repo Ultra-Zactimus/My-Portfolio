@@ -3,63 +3,29 @@
 
 .about {
   &__container {
-    display: grid;
-    grid-template-columns: 35% 50%;
+    display: -ms-inline-grid;
     gap: 15%;
+    text-align: center;
+    
 
     @include mix.md-screens {
+      display: grid;
       grid-template-columns: 1fr;
       gap: 0;
-    }
-  }
-
-  &__me {
-    width: 80%;
-    height: 83%;
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(
-      45deg,
-      transparent,
-      var.$primary,
-      transparent
-    );
-    display: grid;
-    place-items: center;
-
-    @include mix.md-screens {
-      width: 50%;
-      margin: 2rem auto 9rem;
-    }
-
-    @include mix.sm-screens {
-      width: 65%;
-      margin: 1rem auto 6rem;
-    }
-  
-    &--image {
-      border-radius: 1.5rem;
-      overflow: hidden;
-      transform: rotate(10deg);
-      transition: var.$transition;
-  
-      &:hover {
-        transform: rotate(0);
-      }
     }
   }
 
   &__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    gap: 2rem;
 
     @include mix.md-screens {
       margin-top: 5rem;
     }
 
     @include mix.sm-screens {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       gap: 1rem;
     }
 
@@ -73,8 +39,10 @@
   &__card {
     background-color: var.$bg-medium;
     border: 1px solid transparent;
+    width: 14rem;
+    margin-left: 4.2rem;
     border-radius: 2rem;
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
   
     &:hover {
@@ -90,6 +58,15 @@
     & small {
       font-size: 0.7rem;
       color: var.$lgt;
+    }
+
+    @include mix.md-screens {
+      width: auto;
+      margin-left: auto;
+    }
+
+    @include mix.sm-screens {
+      width: 100%;
     }
   }
 
