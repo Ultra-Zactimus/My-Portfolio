@@ -27,6 +27,10 @@
       border: 1px solid transparent;
       transition: var.$transition;
 
+      @include mix.lg-screens {
+        width: 100%;
+      }
+
       @include mix.md-screens {
         width: 80%;
         padding: 2rem;
@@ -69,6 +73,7 @@
   &__details {
     display: flex;
     gap: 1rem;
+    margin-right: 0.8rem;
 
     @include mix.xs-screens {
       margin-right: 0.5rem;
@@ -77,10 +82,7 @@
     &--icon {
       margin-top: 6px;
       color: var.$primary;
-
-      @include mix.xs-screens {
-        flex-shrink: 0;
-      }
+      flex-shrink: 0;
     }
   }
 }
