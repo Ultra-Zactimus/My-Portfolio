@@ -1,5 +1,3 @@
-import Image from "next/image";
-import forest2 from "../../../public/forest2.png";
 import { FaAward } from "react-icons/fa";
 import { GiStairsGoal } from "react-icons/gi";
 import { VscFolderLibrary } from "react-icons/vsc";
