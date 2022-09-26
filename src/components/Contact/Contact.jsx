@@ -62,7 +62,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
+        <form className="contact__form" ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
